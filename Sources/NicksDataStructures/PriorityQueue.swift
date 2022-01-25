@@ -26,7 +26,7 @@ public struct PriorityQueue<T: Comparable> {
     
     private var heap:Heap<T>
     
-    init(sort: @escaping(T, T) -> Bool) {
+    public init(sort: @escaping(T, T) -> Bool) {
         self.heap = Heap<T>(sort: sort)
     }
     

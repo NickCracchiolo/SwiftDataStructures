@@ -20,7 +20,7 @@ public struct Queue<T: Comparable & AdditiveArithmetic> {
     
     private var list: LinkedList<T>
     
-    init() {
+    public init() {
         self.list = LinkedList<T>()
     }
     
