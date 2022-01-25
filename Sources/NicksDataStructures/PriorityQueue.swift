@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct PriorityQueue<T: Comparable> {
+public struct PriorityQueue<T: Comparable> {
     public var isEmpty: Bool {
         return self.heap.isEmpty
     }
