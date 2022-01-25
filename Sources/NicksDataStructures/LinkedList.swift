@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LinkedList<T: Comparable & AdditiveArithmetic>: CustomStringConvertible {
+public struct LinkedList<T: Comparable & AdditiveArithmetic>: CustomStringConvertible {
     
     // MARK: Private Node class
     private class Node<T: Comparable>: CustomStringConvertible, Equatable {

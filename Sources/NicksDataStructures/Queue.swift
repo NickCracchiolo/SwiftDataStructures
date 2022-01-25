@@ -8,7 +8,7 @@
 import Foundation
 
 
-struct Queue<T: Comparable & AdditiveArithmetic> {
+public struct Queue<T: Comparable & AdditiveArithmetic> {
     
     public var isEmpty: Bool {
         return self.list.isEmpty
